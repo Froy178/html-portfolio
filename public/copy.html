@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> Canvas</title>
+  <style>
+   #canvas1
+   {
+    position:absolute;
+    top:40px;
+    left:0px;
+
+    width:100%;
+    height: 100%;
+
+    background-color:black;
+  
+   }
+
+
+
+   #canvas1
+   {
+    z-index:1;
+   }
+
+
+   #game-mood-body 
+   {
+    position:absolute;
+    top:40px;
+    left:0px;
+
+    width:100%;
+    height: 100%;
+
+    background-color:pink;
+    z-index : 0;
+   }
+
+   .game-icon
+   {
+    width:50px;
+    
+   }
+
+   .buttons
+   {
+    display:flex;
+    justify-content:center;
+   }
+   .mood-buttons
+   {
+    margin-right:50px;
+   }
+
+   #home-body
+   {
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    position:absolute;
+    top:40px;
+    left:0px;
+
+    width:100%;
+    height: 100%;
+    
+    background-color: orange;
+   }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class = "buttons">
+  <button class = "mood-buttons js-turn-off-animation">OFF</button>
+
+  <button class = "home-button js-home-button">Home</button>
+
+  </div>
+  
+  
+  <canvas id="canvas1">
+    Canvas
+    
+  </canvas>
+
+
+  <div id = "game-mood-body">
+    
+  </div>
+
+
+  <div id="home-body">
+
+  </div>
+
+  
+
+
+  <script src = script2.js>
+
+   
+  </script>
+
+</body>
+
+</html>
